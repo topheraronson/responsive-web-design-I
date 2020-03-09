@@ -41,3 +41,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+header, footer, section, div, p, nav {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: lightgrey;
+}
