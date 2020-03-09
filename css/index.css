@@ -16,7 +16,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -67,4 +68,27 @@ header nav {
 header a {
     text-decoration: none;
     color: lightgrey;
+}
+
+section#call-to-action {
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+section#call-to-action .text-container {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section#call-to-action .circle-code-image {
+    width: 49%;
+}
+
+.text-container h1 {
+    margin: 3%;
 }
