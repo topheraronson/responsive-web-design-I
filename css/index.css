@@ -43,10 +43,10 @@ table {
 	border-spacing: 0;
 }
 
-header, footer, section, div, p, nav {
+/* header, footer, section, div, p, nav {
     border: 1px solid black;
     margin: 10px;
-}
+} */
 
 .container {
     max-width: 880px;
@@ -56,11 +56,12 @@ header, footer, section, div, p, nav {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    padding: 1%;
 }
 
 header nav {
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -68,6 +69,15 @@ header nav {
 header a {
     text-decoration: none;
     color: lightgrey;
+}
+
+header .logo {
+    background-image: url('../img/logo.png');
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 35px;
 }
 
 section#call-to-action {
