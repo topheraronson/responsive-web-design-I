@@ -47,6 +47,11 @@ header, footer, section, div, p, nav {
     margin: 10px;
 }
 
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
