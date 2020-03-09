@@ -97,20 +97,80 @@ section#call-to-action .text-container {
 
 section#call-to-action .circle-code-image {
     width: 49%;
+    background-image: url('../img/header-img.png');
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
 }
 
 .text-container h1 {
     margin: 3%;
+    font-size: 75px;
 }
 
-/* section#main-content {
+.text-container a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    margin: 10px;
+}
 
-} */
+section#main-content {
+    border-top: 1px solid black;
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
 
 div.top-content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.top-content div.content {
+    width: 47%;
+}
+
+div.content h2 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+div.middle-content {
+    background-image: url('../img/mid-page-accent.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180px;
+    margin: 30px 0;
 }
 
 div.bottom-content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.bottom-content div.content {
+    width: 30%;
+}
+
+footer {
+    margin: 30px 0;
+}
+
+footer h2 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+section#copyright {
+    text-align: center;
 }
