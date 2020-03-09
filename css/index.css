@@ -92,3 +92,15 @@ section#call-to-action .circle-code-image {
 .text-container h1 {
     margin: 3%;
 }
+
+/* section#main-content {
+
+} */
+
+div.top-content {
+    display: flex;
+}
+
+div.bottom-content {
+    display: flex;
+}
