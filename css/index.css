@@ -176,6 +176,11 @@ section#copyright {
 }
 
 @media (max-width: 800px) {
+
+    .container {
+        max-width: 95%;
+    }
+
     header {
         flex-direction: column-reverse;
     }
@@ -186,8 +191,22 @@ section#copyright {
 
     header nav {
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 15px;
+    }
+    
+    section#call-to-action .text-container {
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    section#call-to-action .circle-code-image {
+        display: none;
     }
 }
 
