@@ -174,3 +174,23 @@ footer p {
 section#copyright {
     text-align: center;
 }
+
+@media (max-width: 800px) {
+    header {
+        flex-direction: column-reverse;
+    }
+
+    header .logo {
+        margin: 10px 0;
+    }
+
+    header nav {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+}
